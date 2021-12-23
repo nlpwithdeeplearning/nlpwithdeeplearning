@@ -33,17 +33,17 @@ Answer: Metacharacters give special powers to the characters in their scope. The
 
 The `\` itself is used to match predefined sequences, some of which are listed below:
 
-* r"\d" matches any decimal digit; same as r"[0-9]" or r"0|1|2|3|4|5|6|7|8|9"
+* "\d" matches any decimal digit; same as "[0-9]" or "0|1|2|3|4|5|6|7|8|9"
 
-* r"\D" matches any non-digit; same as r"[^0-9]"
+* "\D" matches any non-digit; same as "[^0-9]"
 
-* r"\s" matches any whitespace character; same as r"[ \t\n\r\f\v]"
+* "\s" matches any whitespace character; same as "[ \t\n\r\f\v]"
 
-* r"\S" matches any non-whitespace character; same as r"[^ \t\n\r\f\v]"
+* "\S" matches any non-whitespace character; same as "[^ \t\n\r\f\v]"
 
-* r"\w" matches any alphanumeric character; same as r"[a-zA-Z0-9_]"
+* "\w" matches any alphanumeric character; same as "[a-zA-Z0-9_]"
 
-* r"\W" matches any non-alphanumeric character; same as r"[^a-zA-Z0-9_]"
+* "\W" matches any non-alphanumeric character; same as "[^a-zA-Z0-9_]"
 
 `[ ]` are used to definition new sequences (aka character classes) from scratch as you can see in the equivalent versions of the above examples
 
