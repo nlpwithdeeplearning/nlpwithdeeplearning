@@ -1,3 +1,9 @@
+---
+layout: page
+title: Regular Expressions
+permalink: /regex/
+---
+
 ## Questions
 ### Question: What is a regular expression? How do you create it?
 
