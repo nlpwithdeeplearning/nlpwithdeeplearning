@@ -7,5 +7,5 @@ layout: home
 
 Natural Language Processing with Deep Learning
 
-1. [Regular Expressions](/site/regex.md)
-1. [Words](/site/words.md)
+1. [Regular Expressions](/_site/regex.md)
+1. [Words](/_site/words.md)
