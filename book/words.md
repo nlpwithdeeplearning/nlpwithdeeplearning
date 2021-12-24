@@ -1,8 +1,9 @@
----
+<!-- ---
 # layout: page
 title: Words
 permalink: /book/words/
----
+--- -->
+# Words
 
 ## Questions
 ### Question: What is a corpus?
@@ -30,4 +31,5 @@ Answer: Word types are the set of words in the vocabulary or the number of disti
 Answer: Word tokens are the total number of words, typically represented by N. For example, the Shakespeare corpus has 31 thousand word types and 884 thousand word tokens.
 
 ### What is Herdan's law or Heaps' law?
-The larger is the corpus, the more are the word types. 
+The larger is the corpus, the more are the word types. The formula for this is:
+$ |V| = kN^\beta $
