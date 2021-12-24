@@ -19,7 +19,7 @@ Answer: The Switchboard corpus is a collection of 2430 American English telephon
 Answer: A disfluency is a broken-off word (fragment) or a filler or filled pause (e.g., uh and um) in an utterance.
 
 ### Question: What is a lemma?
-Answer: A lemma is a set of lexical forms having the same stem, the same major part-of-speech, and the same word sense.
+Answer: A lemma is a set of lexical forms having the same stem, the same major part-of-speech, and the same word sense. Dictionary entries or boldface forms roughly correspond to the lemmas; however, some lemmas have multiple boldface forms.
 
 ### Wordform: What is a wordform?
 Answer: The wordform is the full inflected or derived form of the word.
@@ -33,3 +33,19 @@ Answer: Word tokens are the total number of words, typically represented by N. F
 ### What is Herdan's law or Heaps' law?
 The larger is the corpus, the more are the word types. The formula for this is:
 $ |V| = kN^\beta $
+
+### What is the construction in African American Language (AAL) corresponding to "I don't" in Mainstream American English (MAE)?
+iont
+
+### What is code switching?
+Code switching is the phenomenon of speakers or writes using multiple languages in a single communicative act.
+
+### What is a datasheet or data statement?
+A datasheet or a data statement specifies properties of a dataset like:
+* Motivation: Why was the data or corpus collected? Who collected it? Who funded it?
+* Situation: What was the situation in which the text was written or spoken? E.g., what were the guidelines provided to them?
+* Language variety: What language and locale was the data in?
+* Speaker demographics: e.g., age, gender, nationality
+* Collection process
+* Annotation process
+* Permissions/licensing

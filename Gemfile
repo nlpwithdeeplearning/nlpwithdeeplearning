@@ -32,4 +32,4 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Sid added this based on https://github.com/jeffreytse/jekyll-spaceship
-gem 'jekyll-spaceship'
+# gem 'jekyll-spaceship'
