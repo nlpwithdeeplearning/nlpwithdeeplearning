@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Words
 ---
 
@@ -49,3 +49,70 @@ A datasheet or a data statement specifies properties of a dataset like:
 * Collection process
 * Annotation process
 * Permissions/licensing
+
+### What does this unix command do: tr -sc 'A-Za-z' '\n' < sh.txt
+It tokenizes the words by replacing every non-alphabetic character with a new line.
+
+### What does this unix command do: tr -sc 'A-Za-z' '\n' < sh.txt | sort | uniq -c
+It sorts the tokens in alphabetical order and counts them.
+
+### What does this unix command do: tr -sc 'A-Za-z' '\n' < sh.txt | tr A-Z a-z | sort | uniq -c
+It sorts the lower-cased tokens in alphabetical order and counts them.
+
+### tr -sc 'A-Za-z' '\n' < sh.txt | tr A-Z a-z | sort | uniq -c | sort -n -r
+It sorts the lower-cased tokens in sh.txt in the order of their frequency.
+
+### What is tokenization?
+Tokenization is the task of segmenting running text into work tokens.
+
+### What is a clitic contraction?
+Clitic contractions are words such as `it's` that can be further tokenized to `it` and `is`.
+
+### What is Penn Treebank tokenization standard?
+Penn Treebank tokenization standard is a standard that is released by Linguistic Data Consortium (LDC). It specifies that the clitics should be separated out (`it's` becomes `it` and `'s`), the hyphenated words should be together and all punctuation should be separated out.
+
+### What does this pattern of words represent - ([A-Z]\.)+
+Abbreviations
+
+### What does this pattern of words represent - \w+(-\W+)*
+Words with optional internal hyphens
+
+### What does this pattern of words represent - \$?\d+(\.\d+)?%?
+Currency and percentages
+
+### What does this pattern of words represent - \.\.\.
+Ellipsis
+
+### What does this pattern of words represent - [][.,;"'?():-_]
+Punctuations marks, etc.
+
+## What is a hanzi?
+Hanzi are the characters used to compose words in Chinese.
+
+### What is a morpheme?
+A part of a word such as character (e.g., hanzi in chinese) that has a single unit of meaning.
+
+### Does chinese NLP work better with word input or character input?
+Chinese NLP can work better with character input since characters themselves are at a reasonable semantic level and the most word standards result in huge vocabulary with rare words?
+
+### Does Japanese and Thai NLP work better with word input or character input?
+For Japanese and Thai, we need to operate at a word level. So, special algorithms for `word segmentation` are required using neural sequence models.
+
+### What is the unknown word problem in statistical NLP?
+If the training corpus contains words such as `high`, `old`, and `older`, but not `higher`, then the trained model will not know what to do when `higher` is encountered in production.
+
+### What are three widely used algorithms for token segmentation?
+Byte-pair encoding, unigram language modeling, and WordPiece. All of them have a token leaner that learns the tokens/vocabulary from training corpus and a model that takes a raw sentences and segments into tokens from the vocabulary.
+
+### What is byte pair encoding?
+Byte pair encoding has a token learning phase first that initializes the vocabulary just with set of all individual characters. It then merges two symbols (A, B) that are most frequently adjacent, adds a new symbol (AB), and replaces every adjacent A and B in the corpus with AB. This continues until `k` (hyperparameter) new token are created. 
+It then has a token parser step which first segments each word of input raw sentence into characters, and then it applies all the merge rules it learned greedily. Thus, if a word `older` is in the training corpus, the entire word is used for the token. If the word `higher` is not in the token but the words `old`, `older`, and `high`, it would be tokenized into `high` (because the characters `h`, `i`, `g`, and `h` occur together in training corpus) and `er` (because `e` and `r` occur together in training corpus).
+
+### What is word normalization?
+Word normalization is the task of mapping word tokens (e.g., United States, USA, United States, America, US, and U.S.A.) to a canonical format. Word normalization is useful for information retrieval and information extraction.
+
+### What is case folding?
+Case folding is mapping everything to lower case so that we can generalize for tasks such as information retrieval and speech recognition. Case folding can be detrimental for sentiment analyis, text classification, information extraction, and machine translation because of the semantic and syntactic information present in case.
+
+### What is lemmatization?
+Lemmatization is the task of 
