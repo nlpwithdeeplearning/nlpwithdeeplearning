@@ -115,4 +115,56 @@ Word normalization is the task of mapping word tokens (e.g., United States, USA,
 Case folding is mapping everything to lower case so that we can generalize for tasks such as information retrieval and speech recognition. Case folding can be detrimental for sentiment analyis, text classification, information extraction, and machine translation because of the semantic and syntactic information present in case.
 
 ### What is lemmatization?
-Lemmatization is the task of 
+Lemmatization is the task of identifying common roots of the words even when them might have surface diffences; e.g., ran and run; am, are, and is.
+
+### What is morphological parsing?
+Morphology is the study of the way words are built up from morphemes, the smaller meaning bearing units. There are two broad categories of morphemes - stems and affixes. Stems (e.g., `dog` in `dogs`) provide the central meaning. Affixes provide additional meaning (e.g., `s` in `dogs`).
+
+### What is stemming?
+Stemming is the naive version of morphological parsing. For example, Porter stemmer is a widely used stemming algorithm. It is based on a cascade of rules.
+
+### What is sentence segmentation?
+Sentence segmentation is segmenting text into sentences using cues like punctuation, abbreviation, and capitalization. It can be based on a separate machine learning model or some rules on tokenization output. An example rule is that sentence ends with an optional quote or bracket followed by punctuation unless that punctuation is already part of another token (e.g., abbreviation, number).
+
+### What is minimum edit distance?
+Minimum edit distance between two strings is the minimum number of editing operations (namely insertion, deletion and substitution) needed to perfectly align or match them.
+
+### What is dynamic programming?
+Dynamic programming is a tabular approach to solve problems by combining solutions to smaller problems. It is used in edit distance, Viterbi, and CKY parsing.
+
+### Write pseudo code for minimum edit distance
+```
+def edit_distance(str0:str, str1: str) -> int:
+    len0 = len(str0)
+    len1 = len(str1)
+
+    # initialize the table, table[len0][len1] is the final output
+    table = [[0 for j in range(len1+1)] for i in range(len0+1)]
+    
+    for i in range(len0+1):
+        for j in range(len1+1):
+            # if str0 is empty, all of str1 needs to be inserted
+            if i==0:
+                table[i][j] = j
+            # likewise for str1
+            elif j==0:
+                table[i][j] = i
+            # if corresponding characters are matching, then go back diagonally
+            elif str0[i-1] == str1[j-1]:
+                table[i][j] = table[i-1][j-1]
+            # this is either an insertion (move right) or deletion (up) or swap (diagonal) then based on which path is shorter
+            else:
+                table[i][j] = 1 + min( # 1 -> equal cost assumed
+                    table[i][j-1], # right arrow = insert
+                    table[i-1][j], # up arrow = delete
+                    table[i-1][j-1], # diagonal = replace
+                )
+    
+    return table[len0][len1]
+
+if __name__ == '__main__':
+    str0 = 'hare'
+    str1 = 'hari'
+    ed = edit_distance(str0, str1)
+    print(ed)
+```
