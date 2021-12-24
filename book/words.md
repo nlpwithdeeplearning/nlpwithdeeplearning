@@ -1,3 +1,9 @@
+---
+layout: page
+title: Words
+permalink: /book/words/
+---
+
 ## Questions
 ### Question: What is a corpus?
 Answer: A corpus (plural corpora) is a computer-readable collection of text or speech. For example, the Brown corpus is a million-word collection of samples from 500 texts of different genres (e.g., newspaper, fiction, nonfiction, and academic).

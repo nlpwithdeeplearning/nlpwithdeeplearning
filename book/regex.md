@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Regular Expressions
-permalink: /regex/
+permalink: /book/regex/
 ---
 
 ## Questions
