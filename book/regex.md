@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Regular Expressions
 permalink: /book/regex/
 ---
