@@ -10,3 +10,4 @@ Natural Language Processing with Deep Learning
 1. [Regular Expressions](/book/regex.md)
 1. [Words](/book/words.md)
 1. [N-grams](/book/ngrams.md)
+1. [Text Classification with Naive Bayes](/book/bayes.md)
