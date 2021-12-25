@@ -13,4 +13,4 @@ Natural Language Processing with Deep Learning
 1. [Text Classification with Naive Bayes](/book/bayes.md)
 1. [Logistic Regression](/book/lr.md)
 1. [Vector Semantics](/book/vectors.md)
-1. [Neural Language Modes](/book/nlm.md)
+1. [Neural Networks](/book/nn.md)
