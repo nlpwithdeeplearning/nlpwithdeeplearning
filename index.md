@@ -11,3 +11,4 @@ Natural Language Processing with Deep Learning
 1. [Words](/book/words.md)
 1. [N-grams](/book/ngrams.md)
 1. [Text Classification with Naive Bayes](/book/bayes.md)
+1. [Logistic Regression](/book/lr.md)
