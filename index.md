@@ -14,3 +14,4 @@ Natural Language Processing with Deep Learning
 1. [Logistic Regression](/book/lr.md)
 1. [Vector Semantics](/book/vectors.md)
 1. [Neural Networks](/book/nn.md)
+1. [Parts of Speech and Named Entities](/book/pos_ner.md)
