@@ -12,12 +12,14 @@ Because the computation proceeds iteratively from one layer of units to the next
 Because modern networks are often deep (have many layers).
 
 ### How is `z` computed?
-x.w + b
+`x.w + b`
 
 ### What are some activation functions?
+```
 sigmoid(z) = 1/(1 + e^-z)
 tanh(z) = (e^z - e^-z)/(e^z + e^-z)
 ReLU(z) = max(z, 0)
+```
 
 ### Why is ReLU preferred over sigmoid and tanh?
 At very high values of z, sigmoid(z) and tanh(z) are saturated (extremely close to 1) and so the derivatives are close to zero. This creates a problem called vanishing gradient. ReLU doesn't have this problem; their derivative is 1 even at very high values of z.
@@ -32,18 +34,22 @@ XOR is not a lineatly separable function and so can't be calculated by a single 
 Perceptrons are purely linear while modern feedforward networks are made up of non-linear activation functions.
 
 ### Give the formulae for two-layer neural network
+```
 a0 = x
 z1 = a0.W1 + b1
 a1 = g1(z1)
 z2 = a1.W2 + b2
 a2 = g2(z2)
 yhat = a2
+```
 
 ### For a text with n input work tokens w0, w1, ..., and wn-1, what is the equation for sentiment classifier with two layers?
+```
 x = [e_w0; e_w1; e_w2; ...; e_wn-1]
 h = g(x.W + b)
 z = h.U
 y = softmax(z)
+```
 
 ### What are the key concepts involved in calculating gradient for neural networks?
 computation graphs, chain rule, error backpropagation (backward differentiation on a computation graph)

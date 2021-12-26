@@ -5,13 +5,19 @@
 layout: home
 ---
 
-Natural Language Processing with Deep Learning
+### Natural Language Processing with Deep Learning
 
-1. [Regular Expressions](/book/regex.md)
-1. [Words](/book/words.md)
-1. [N-grams](/book/ngrams.md)
-1. [Text Classification with Naive Bayes](/book/bayes.md)
-1. [Logistic Regression](/book/lr.md)
-1. [Vector Semantics](/book/vectors.md)
-1. [Neural Networks](/book/nn.md)
-1. [Parts of Speech and Named Entities](/book/pos_ner.md)
+Resources
+1. [Speech and Language Processing book](https://web.stanford.edu/~jurafsky/slp3/)
+
+Question Bank
+1. [Regular Expressions](/nlpqb/regex.md)
+1. [Words](/nlpqb/words.md)
+1. [N-grams](/nlpqb/ngrams.md)
+1. [Text Classification with Naive Bayes](/nlpqb/bayes.md)
+1. [Logistic Regression](/nlpqb/lr.md)
+1. [Vector Semantics](/nlpqb/vectors.md)
+1. [Neural Networks](/nlpqb/nn.md)
+1. [Parts of Speech and Named Entities](/nlpqb/pos_ner.md)
+1. [Sequence Processing](/nlpqb/seq.md)
+1. 
