@@ -20,4 +20,4 @@ Question Bank
 1. [Neural Networks](/nlpqb/nn.md)
 1. [Parts of Speech and Named Entities](/nlpqb/pos_ner.md)
 1. [Sequence Processing](/nlpqb/seq.md)
-1. 
+1. [Machine Translation](/nlpqb/mt.md)
