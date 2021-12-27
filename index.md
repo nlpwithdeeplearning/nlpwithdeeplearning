@@ -26,3 +26,4 @@ Question Bank
 1. [Dependency Parsing](/nlpqb/dep.md)
 1. [Logical Representations of Sentence Meaning](/nlpqb/meaning.md)
 1. [Information Extraction](/nlpqb/ie.md)
+1. [Word Senses and Wordnet](/nlpqb/senses.md)
