@@ -27,3 +27,4 @@ Question Bank
 1. [Logical Representations of Sentence Meaning](/nlpqb/meaning.md)
 1. [Information Extraction](/nlpqb/ie.md)
 1. [Word Senses and Wordnet](/nlpqb/senses.md)
+1. [Semantic Role Labeling](/nlpqb/srl.md)
