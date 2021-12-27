@@ -22,6 +22,8 @@ title: NLP with Deep Learning
 email: info@nlpwithdeeplearning.com
 description: >- # this means to ignore newlines until "baseurl:"
   Please keep visiting the site as we add more content. Disclaimer: I believe all content used falls under the remits of Fair Use, but if for any reason the original creator or Copyright owners feel this is in violation of the Fair Use act, I will not hesitate to remove the content. It is not my intent in any way to infringe on their content ownership. If you notice something like  that, please let me know and I will be glad to credit you. info@nlpwithdeeplearning.com
+header_pages:
+  -
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

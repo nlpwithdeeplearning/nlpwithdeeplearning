@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Text Classification with Naive Bayes - 3
-published: false
+title: Text Classification with Naive Bayes
 ---
 
 ### What is text classification?
