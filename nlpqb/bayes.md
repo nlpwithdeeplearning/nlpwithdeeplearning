@@ -1,7 +1,4 @@
----
-layout: default
-title: Text Classification with Naive Bayes - 2
----
+# Text Classification with Naive Bayes - 2
 
 ### What is text classification?
 Text classification is the task of assigning a label or category to an entire text or document.
