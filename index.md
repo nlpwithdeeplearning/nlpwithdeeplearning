@@ -23,3 +23,4 @@ Question Bank
 1. [Machine Translation](/nlpqb/mt.md)
 1. [Constituency Grammars](/nlpqb/grammars.md)
 1. [Constituency Parsing](/nlpqb/parsing.md)
+1. [Dependency Parsing](/nlpqb/dep.md)
