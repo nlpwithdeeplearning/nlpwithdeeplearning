@@ -1,5 +1,5 @@
 ---
-layout: page
+# layout: page
 title: Text Classification with Naive Bayes
 ---
 
