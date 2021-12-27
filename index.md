@@ -24,3 +24,5 @@ Question Bank
 1. [Constituency Grammars](/nlpqb/grammars.md)
 1. [Constituency Parsing](/nlpqb/parsing.md)
 1. [Dependency Parsing](/nlpqb/dep.md)
+1. [Logical Representations of Sentence Meaning](/nlpqb/meaning.md)
+1. [Information Extraction](/nlpqb/ie.md)
