@@ -3,9 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Natural Language Processing with Deep Learning
 ---
-
-### Natural Language Processing with Deep Learning
 
 Resources
 1. [Speech and Language Processing book](https://web.stanford.edu/~jurafsky/slp3/)
