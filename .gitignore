@@ -5,3 +5,5 @@ _site
 vendor
 .vscode/launch.json
 book/TODO.md
+nlpqb/TODO.md
+.DS_Store
