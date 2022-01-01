@@ -11,6 +11,8 @@ Resources
 
 Survey
 1. [Language Modeling](/survey/language_modeling.md)
+1. [Machine Translation](/survey/machine_translation.md)
+1. [Question Answering](/survey/question_answering.md)
 
 Question Bank
 1. [Regular Expressions](/nlpqb/regex.md)
