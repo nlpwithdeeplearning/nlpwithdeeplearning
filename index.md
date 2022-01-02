@@ -8,6 +8,7 @@ title: Natural Language Processing with Deep Learning
 
 Resources
 1. [Speech and Language Processing book](https://web.stanford.edu/~jurafsky/slp3/)
+1. [Dive into Deep Learning](https://d2l.ai/)
 
 Survey
 1. [Language Modeling](/survey/language_modeling.md)
@@ -29,7 +30,7 @@ Survey
 1. [Dialogue](/survey/dialogue.md)
 1. [Semantic Parsing](/survey/sp.md)
 
-Question Bank
+NLP Question Bank
 1. [Deep Learning Fundamentals](/nlpqb/dl.md)
 1. [Regular Expressions](/nlpqb/regex.md)
 1. [Words](/nlpqb/words.md)
@@ -55,3 +56,6 @@ Question Bank
 1. [Chatbots and Dialogue Systems](/nlpqb/dialogue.md)
 1. [Phonetics](/nlpqb/phonetics.md)
 1. [Automatic Speech Recognition and Text-to-Speech](/nlpqb/asrtts.md)
+
+Deep Learning Question Bank
+1. [Introduction](/dlqb/introduction.md)

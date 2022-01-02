@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Semantic Parsing
-permalink: /survey/sp.md
+permalink: /survey/sp.html
 ---
 
 Semantic Parsing is the task of transducing natural language utterances into formal meaning representations. The target meaning representations can be defined according to a wide variety of formalisms. This include linguistically-motivated semantic representations that are designed to capture the meaning of any sentence such as λ-calculus or the abstract meaning representations. Alternatively, for more task-driven approaches to Semantic Parsing, it is common for meaning representations to represent executable programs such as SQL queries, robotic commands, smart phone instructions, and even general-purpose programming languages like Python and Java.
