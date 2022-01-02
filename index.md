@@ -30,6 +30,7 @@ Survey
 1. [Semantic Parsing](/survey/sp.md)
 
 Question Bank
+1. [Deep Learning Fundamentals](/nlpqb/dl.md)
 1. [Regular Expressions](/nlpqb/regex.md)
 1. [Words](/nlpqb/words.md)
 1. [N-grams](/nlpqb/ngrams.md)
