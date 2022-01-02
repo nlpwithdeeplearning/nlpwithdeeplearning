@@ -59,3 +59,4 @@ NLP Question Bank
 
 Deep Learning Question Bank
 1. [Introduction](/dlqb/introduction.md)
+1. [Data Manipulation](/dlqb/data_manipulation.md)
