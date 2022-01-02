@@ -27,4 +27,4 @@ Chinese named entity recognition is a subtask of information extraction that see
 Nested named entity recognition is a subtask of information extraction that seeks to locate and classify nested named entities (i.e., hierarchically structured entities) mentioned in unstructured text
 
 # Next
-[Optical Character Recognition](survey/ocr.md)
+[Optical Character Recognition](/survey/ocr.md)

@@ -16,4 +16,4 @@ Optical character recognition or optical character reader (OCR) is the electroni
  1. Handwritten Digit Image Synthesis
 
 # Next
-[Relation Extraction](survey/relation_extraction.md)
+[Relation Extraction](/survey/relation_extraction.md)

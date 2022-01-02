@@ -27,4 +27,4 @@ Using data and models available for one language for which ample such resources 
 Visual Entailment (VE) - is a task consisting of image-sentence pairs whereby a premise is defined by an image, rather than a natural language sentence as in traditional Textual Entailment tasks. The goal is to predict whether the image semantically entails the text.
 
 # Next
-[Visual Question Answering](survey/visualqa.md)
+[Visual Question Answering](/survey/visualqa.md)

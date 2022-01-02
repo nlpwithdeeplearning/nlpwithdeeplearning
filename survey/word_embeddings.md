@@ -13,4 +13,4 @@ Techniques for learning word embeddings can include Word2Vec, GloVe, and other n
 1. Contextualized Word Representations
 
 # Next
-[Text Summarization](survey/text_summarization.md)
+[Text Summarization](/survey/text_summarization.md)

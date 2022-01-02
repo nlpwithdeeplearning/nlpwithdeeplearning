@@ -33,4 +33,4 @@ Twitter sentiment analysis is the task of performing sentiment analysis on tweet
 
 
 # Next
-[Text Generation](survey/text_generation.md)
+[Text Generation](/survey/text_generation.md)
