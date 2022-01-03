@@ -90,4 +90,11 @@ Informally, the norm of a vector tells us how big a vector is. In linear algebra
 1. norm must be non-negative: 𝑓(𝐱)≥0
 1. the smallest norm is achieved and only achieved by a vector consisting of all zeros: ∀𝑖,[𝐱]𝑖=0⇔𝑓(𝐱)=0
 
-### 
+### What is the L2 norm?
+The 𝐿2 norm of 𝐱 is the square root of the sum of the squares of the vector elements. In code, we can calculate the  𝐿2  norm of a vector as: `torch.norm(u)`.
+
+### What is the L1 norm?
+To calculate the  𝐿1  norm, we compose the absolute value function with a sum over the elements: `torch.abs(u).sum()`
+
+### What is the Frobenius norm of a matrix X?
+Analogous to  𝐿2  norms of vectors, the Frobenius norm of a matrix  𝐗∈ℝ𝑚×𝑛  is the square root of the sum of the squares of the matrix elements: `torch.norm(X)`.
