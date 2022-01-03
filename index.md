@@ -15,6 +15,7 @@ Deep Learning Question Bank
 1. [Data Manipulation](/dlqb/data_manipulation.md)
 1. [Data Preprocessing](/dlqb/data_preprocessing.md)
 1. [Linear Algebra](/dlqb/linear_algebra.md)
+1. [Calculus](/dlqb/calculus.md)
 
 NLP Question Bank
 1. [Deep Learning Fundamentals](/nlpqb/dl.md)
