@@ -16,6 +16,8 @@ Deep Learning Question Bank
 1. [Data Preprocessing](/dlqb/data_preprocessing.md)
 1. [Linear Algebra](/dlqb/linear_algebra.md)
 1. [Calculus](/dlqb/calculus.md)
+1. [Automatic Differentiation](/dlqb/automatic_differentiation.md)
+1. [Probability](/dlqb/probability.md)
 
 NLP Question Bank
 1. [Deep Learning Fundamentals](/nlpqb/dl.md)
